@@ -20,7 +20,6 @@ function AddMovies({ movies, setMovies }) {
       poster,
     }
     setMovies([...movies, newMovie])
-    // Clear fields
     setTitle('')
     setYear('')
     setGenre('')
